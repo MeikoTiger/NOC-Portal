@@ -208,7 +208,7 @@ setlocale(LC_TIME, 'de_DE.utf8');   /* Locale Information setzen */
           /* Alle gesamelten Daten in Haupttabele eintragen */ 
              /* Hauptdaten:   per_daten"0"
              +-------------------+------------+------+-----+---------+----------------+
-             | Field             | Type       | Null | Key | Default | Extra          |
+             | Field             | Type       | Null | Key | Default | Extra          |test
              +-------------------+------------+------+-----+---------+----------------+
              | per_v_name_id     | int(11)    | NO   |     | NULL    |                |
              | per_n_name_id     | int(11)    | NO   |     | NULL    |                | 
@@ -220,7 +220,7 @@ setlocale(LC_TIME, 'de_DE.utf8');   /* Locale Information setzen */
              | per_firma_id      | int(11)    | NO   |     | NULL    |                |
              | per_handy_id      | int(11)    | NO   |     | NULL    |                |
              | per_abteilung_id  | int(11)    | NO   |     | NULL    |                |
-             | per_einsatzort_id | int(11)    | NO   |    | NULL    |                |
+             | per_einsatzort_id | int(11)    | NO   |    | NULL    |                  |   
              | geburtstag_unix   | int(11)    | NO   |     | NULL    |                |
              | status            | tinyint(1) | NO   |     | NULL    |                |
              | id                | int(11)    | NO   | PRI | NULL    | auto_increment |
